@@ -1,0 +1,36 @@
+.article__short {
+  margin-left: 70px;
+  margin-top: 25px;
+  width: 650px;
+  height: 250px;
+  padding: 5px;
+  position: relative;
+}
+
+.article__picture {
+  margin: 80px 0px;
+  width: 220px;
+  height: 160px;
+  border: 2px solid #dfe1e5;
+  position: absolute;
+  display: block;
+}
+
+.article__text {
+  margin: 75px 20px;
+  width: 380px;
+  color: #f5f5f5;
+  position: absolute;
+  display: block;
+  font-size: 17px;
+}
+
+.article__title {
+  width: 100%;
+  color: #f5f5f5;
+  border-bottom: 2px solid #dfe1e5;
+  padding: 10px;
+  margin: 0 auto;
+  position: absolute;
+  display: block;
+}

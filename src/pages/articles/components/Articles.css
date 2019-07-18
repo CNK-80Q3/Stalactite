@@ -1,0 +1,35 @@
+.operation a {
+  margin: 0 .5em;
+}
+
+.create {
+  margin: 1.5em 0;
+}
+
+.detail__container {
+  width: 825px;
+  background-color: #1d406950;
+  box-shadow: none;
+  padding: 50px 50px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.catalog__container {
+  width: 825px;
+  background-color: #1d406950;
+  box-shadow: none;
+  padding: 80px 50px;
+  margin-top: 10px;
+}
+
+.pagination {
+  margin-top: 15px;
+}
+
+.catalog {
+  margin-top: 10px;
+  padding: 10px 0;
+  border-top: 1px solid #dfe1e577;
+  border-bottom: 1px solid #dfe1e577;
+}

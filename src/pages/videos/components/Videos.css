@@ -1,0 +1,11 @@
+.container {
+  width: 1440px;
+  padding: 0;
+  /* border: 1px solid #dfe1e5; */
+  box-shadow: none;
+  border-radius: 10px;
+  padding: 350px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  position: relative;
+}

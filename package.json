@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "test": "umi test",
+    "lint": "eslint --ext .js src mock tests",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-umi": "^0.1.5",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2",
+    "umi": "^2.1.2",
+    "umi-plugin-react": "^1.1.1",
+    "webpack-chain": "^5.0.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "braft-editor": "^1.9.8",
+    "cos-js-sdk-v5": "^0.5.13",
+    "draft-convert": "^2.1.4",
+    "draftjs-utils": "^0.9.4",
+    "rc-tween-one": "^2.3.2",
+    "react-avatar-editor": "^11.0.6",
+    "react-router-breadcrumbs-hoc": "^3.1.0"
+  },
+  "name": "stalactite",
+  "version": "1.0.0",
+  "main": ".umirc.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

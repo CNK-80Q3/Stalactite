@@ -1,0 +1,23 @@
+
+.lightline {
+  position: fixed;
+  margin-top: 0px;
+  height:12px;
+  width:100%;
+  /* background-color: rgb(8, 27, 61); */
+  background:linear-gradient(120deg, #00e4d0, #5983e8);
+  z-index: 1000;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, .2);
+  margin: 16px 24px 16px 24px;
+  float: left;
+}
+
+.header{
+  position: fixed;
+  margin-top: 0;
+}

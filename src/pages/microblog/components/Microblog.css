@@ -1,0 +1,49 @@
+/* .container{
+  padding: 0px 30px;
+  overflow: hidden;
+} */
+
+.cards__container {
+  left: 80px;
+  overflow: hidden;
+}
+ 
+.cardsarea {
+  height: 920px;
+  overflow-y: scroll;
+  margin-left: 90px;
+}
+
+.modal {
+  width:1000px;
+}
+
+.card__active {
+  width: 400px;
+  height: 225px;
+  padding: 5px;
+  background-color: #1d4069d0;
+  transition: 0.3s;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.cards {
+  width: 400px;
+  height: 225px;
+  padding: 5px;
+  background-color: #1d406950;
+  transition: 0.3s;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.cards:hover {
+  width: 400px;
+  height: 225px;
+  padding: 5px;
+  background-color: #1d4069d0;
+  transition: 0.3s;
+  margin-top: 5px;
+  border-radius: 20px;
+}

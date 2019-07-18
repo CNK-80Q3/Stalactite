@@ -1,0 +1,93 @@
+.content {
+  height: 915px;
+  margin-top: 5px;
+  padding: 40px 60px;
+  background: #1d406950;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.content:hover {
+  height: 915px;
+  margin-top: 5px;
+  padding: 40px 60px;
+  background: #1d4069d0;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.head_portrait {
+  width: 90px;
+  height: 90px;
+  border: 2px solid #dfe1e5;
+  border-radius: 50%;
+  background-color: black;
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1545130583&di=de007011fda284192be5efdd65a57448&src=http://cdn2.ettoday.net/images/693/d693922.jpg) no-repeat center 0;
+}
+
+.nickname {
+  width: auto;
+  height: auto;
+  color: #f5f5f5;
+  font-size: 25px;
+}
+
+.date {
+  padding-top: 15px;
+  color: #f5f5f5;
+  text-align: start;
+  font-size: 18px;
+}
+
+.blogtext {
+  height: auto;
+  padding: 20px 10px;
+  margin-top: 10px;
+  color: #f5f5f5;
+  border-top: 1px solid #dfe1e577;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+.details__pictureWrap {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  margin: 3px 5px;
+  background-color: #000000;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.details__picture {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.details__picture1 {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.buttons {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 460px;
+  width: 560px;
+  height: 50px;
+}
+
+.likes {
+  margin: 10px;
+  color: #f5f5f5;
+}
+
+.commentInputArea {
+  display: none;
+}
+
+.commentArea {
+  max-height: 240px;
+  overflow-y: scroll;
+}

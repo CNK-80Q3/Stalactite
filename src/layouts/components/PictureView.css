@@ -1,0 +1,30 @@
+.pictureView {
+  max-width: 800px;
+  max-height: 500px;
+}
+
+button {
+  max-height: 500px;
+}
+
+.pictureView__btn {
+  width: 100px;
+  height: 500px;
+  background-color: #1d406950;
+  border:none;
+  margin-left: 0px;
+  color: #1d1c1c57;
+  transition: 0.3s;
+  color: #f5f5f5
+}
+
+.pictureView__btn:hover {
+  width: 100px;
+  max-height: 500px;
+  background-color: #1d4069d0;
+  border:none;
+  margin-left: 0px;
+  color: #1d1c1c57;
+  transition: 0.3s;
+  color: #f5f5f5
+}

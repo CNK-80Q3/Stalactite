@@ -1,0 +1,19 @@
+.album__container {
+  width: 1440px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  padding: 200px 100px;
+  border-radius: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.container {
+  width: 1440px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 10px;
+  padding: 200px 100px;
+  margin-top: 10px;
+  position: relative;
+}

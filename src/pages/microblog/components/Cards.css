@@ -1,0 +1,81 @@
+.cards {
+  width: 400px;
+  height: 225px;
+  padding: 5px;
+  background-color: #1d406950;
+  transition: 0.3s;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.cards:hover {
+  width: 400px;
+  height: 225px;
+  padding: 5px;
+  background-color: #1d4069d0;
+  transition: 0.3s;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.cardsClicked {
+  width: 400px;
+  height: 225px;
+  padding: 5px;
+  background-color: #1d4069d0;
+  transition: 0.3s;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.cards__header {
+  background-color: #1690ff;
+  border-radius: 20px;
+}
+
+.cards__myheader {
+  background-color: #e68d2e;
+  border-radius: 20px;
+}
+
+.cards__nickname{
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+  color: #f5f5f5;
+  font-size: 20px;
+}
+
+.cards__date {
+  width: auto;
+  height: auto;
+  padding: 5px 20px;
+  color: #f5f5f5;
+  font-size: 15px;
+}
+
+.cards__text {
+  width: auto;
+  min-height: 45px;
+  max-height: 45px;
+  overflow: hidden;
+  padding: 0px 20px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #f5f5f5;
+  overflow-wrap: break-word;
+}
+
+.cards__pictureWrap {
+  display: inline-block;
+  width: 118px;
+  height: 118px;
+  overflow: hidden;
+  margin-left: 9px;
+  border-radius: 20px;
+}
+.cards__picture {
+  width: 118px;
+  height: 118px;
+  object-fit: cover;
+}

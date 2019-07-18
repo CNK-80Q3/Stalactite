@@ -1,0 +1,44 @@
+.blogArea {
+  box-shadow: none;
+  padding: 8px 8px;
+}
+
+.others {
+  width:400px;
+  padding: 0px 7%;
+  background-color: #26558f62;
+  z-index: 600;
+  position: relative;
+}
+
+.article {
+  padding: 0px 30px;
+  box-shadow: none;
+  position: relative;
+  background-color: #5699e1;
+}
+
+.SKY{
+  margin: 10px 20px;
+  color: #f5f5f584;
+  font-size: 70px;
+  position: fixed;
+  z-index: 10000;
+}
+
+.BLUE {
+  margin: 10px 20px;
+  color: #f5f5f584;
+  font-size: 70px;
+  position: fixed;
+  z-index: 10000;
+}
+
+.title {
+  width: 400px;
+  margin: 5px 0;
+  color: #f5f5f5;
+  font-size: 100px;
+  position: relative;
+  overflow: visible;
+}

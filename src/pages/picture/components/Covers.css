@@ -1,0 +1,137 @@
+.cover {
+  width: 340px;
+  height: 340px;
+  margin: 0px auto 10px 0px;
+  border: 1px solid #dfe1e5;
+}
+
+.img1 {
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 280px;
+  height: 280px;
+  display: block;
+  border: 1px solid #000000;
+}
+
+.img2 {
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 280px;
+  height: 280px;
+  display: block;
+  transition: top 0.4s,
+    left 0.4s;
+  border: 1px solid #000000;
+}
+
+.img3 {
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 280px;
+  height: 280px;
+  display: block;
+  border: 1px solid #000000;
+}
+
+
+
+.img1__transform {
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 280px;
+  height: 280px;
+  display: block;
+  border: 1px solid #000000;
+}
+
+.img2__transform {
+  padding: 0;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 280px;
+  height: 280px;
+  display: block;
+  transition: top 0.4s,
+    left 0.4s;
+  border: 1px solid #000000;
+}
+
+.img3__transform {
+  padding: 0;
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  display: block;
+  border: 1px solid #000000;
+}
+
+.message {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  transition: top 0.4s,
+    left 0.4s;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: rotateX(120deg);
+  transition: all 0.3s linear;
+  transform-origin: bottom;
+  color: #000000;
+  text-align:center;
+}
+
+.message__transform {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  transition: top 0.3s,
+    left 0.3s;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: rotateX(0deg);
+  transition: all 0.3s linear;
+  transform-origin: bottom;
+  color: #000000;
+  text-align:center;
+}
+
+.cover__space {
+  width: 280px;
+  height: 280px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding: 0;
+  overflow: hidden;
+  transition: top 0.5s,
+    left 0.5s;
+}
+
+.cover__space__transform {
+  width: 280px;
+  height: 280px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  padding: 0;
+  overflow: hidden;
+  perspective: 340px;
+  transition: top 0.5s,
+    left 0.5s;
+}
+
+.cover__text {
+   margin:150px auto;
+   width:200px;
+   height:200px;
+}

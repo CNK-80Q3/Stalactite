@@ -1,0 +1,1 @@
+const VideoDataModel = require('../mongo/model/videoModel')

@@ -1,0 +1,39 @@
+.timeBack {
+  width: 360px;
+  padding-top: 100px;
+  top: -180px;
+  bottom: 0px;
+  background-color: #26568f;
+  z-index: 600;
+  position: absolute;
+  transition: top 0.8s;
+}
+
+.timeBack__fixed {
+  width: 360px;
+  padding-top: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: #26568f;
+  z-index: 600;
+  position: fixed;
+  transition: top 0.8s;
+}
+
+
+.title {
+  width: 380px;
+  height: 100px;
+  margin-top: 12px;
+  color: #f5f5f5;
+  font-size: 70px;
+  position: relative;
+  overflow: visible;
+  padding: 0;
+}
+
+.img1 {
+  width: 300px;
+  margin-top: 15px;
+  border: 2px solid #dfe1e5;
+}
